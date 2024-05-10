@@ -5,21 +5,44 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.pr
+.hero
 {
     width: 100%;
     height: 100vh;
     position: relative;
     align-items: center;
 }
+@media (width < 700px) {
+    .img {
+        width: 200px;
+    }
+}
+@media (width > 700px) {
+    .img {
+        width: auto;
+    }
+}
 .nav
 {
     display: flex;
-    background-color: rgb(250, 235, 215);
-    height: 140px;
-    width: 100%;
     align-items: center;
+    width: 100%;
+    
+    justify-content: space-between;
+    margin-right: 50px;
+    padding-left: 0px;
+    background-color: antiquewhite;
 }
+
+nav ul li
+{
+    
+    display: inline-block;
+    margin-left: 40px;
+    list-style: none;
+    font-size: 25px;
+}
+
 .nav:hover
 {
     height: 160px;
@@ -31,10 +54,18 @@
     padding-left: 10px;
     width: 300px;
 }
+.nb2
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    
+}
 .navbox2
 {
-    display: flex;
-    width: 100%;
+    
+    align-items: center;
     justify-content: space-between;   
     padding-top: 10px;
     padding-right: 30px;
@@ -42,14 +73,19 @@
     margin-left: 0px;
     font-size: 23px;
 }
-
-.list:hover
+.a1
 {
+    text-decoration: none;
+    color: black;
+}
+.a1:hover
+{
+    
     font-size: 27px;
     font-style: italic;
     text-decoration: underline; 
 }
-.list:active
+.a1:active
 {
     color: darkorange;
 }
@@ -71,7 +107,7 @@
 }
 @media (min-aspect-ratio: 16/9)
 {
-    .vid1
+    .navbox2
     {
         width: 100%;
         height: auto;
@@ -79,7 +115,7 @@
 }
 @media (min-aspect-ratio: 16/9)
 {
-    .vid1
+    .navbox2
     {
         width: auto;
         height: 100%;
@@ -127,8 +163,7 @@
 
 .box2
 {
-    
+    position;
     padding-left: 0px;
+    
 }
-
-

@@ -1,0 +1,56 @@
+
+
+/* Index navigation bar code style sheet
+.nav
+{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    background-color: rgb(250, 235, 215);
+    height: 140px;
+    width: 100%;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 25px;
+} */
+
+/* Here HTML code
+<!-- <nav class="nav">
+        
+          <a href="in.html" class="a1">
+            <img class="img" src="logo2.png" width="100px" alt="logo" />
+          </a>
+            <ul>
+              <li class="a1">
+                <a href="#" class="a1"> Item list </a>
+              </li>
+              <li class="a1">
+                <a href="#" class="a1"> About Us </a>
+              </li>
+              <li class="a1">
+                <a href="#" class="a1"> Login </a>
+              </li>
+              <li class="a1">
+                <a href="#" class="a1"> Signup </a>
+              </li>
+            </ul>
+          
+      </nav> 
+      <div class="bar"></div> -->
+
+/* Nav bar list code
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+} */
+
+/* Bar
+.bar
+{
+    background-color: darkorange;
+    height: 10px;
+    width:100%;
+}

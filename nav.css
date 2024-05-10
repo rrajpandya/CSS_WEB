@@ -1,0 +1,41 @@
+@media (width < 700px) {
+    .img {
+        width: 200px;
+    }
+}
+@media (width > 700px) {
+    .img {
+        width: auto;
+    }
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    justify-content: space-between;
+    margin-right: 50px;
+    padding-left: 0px;
+    background-color: antiquewhite;
+}
+
+nav ul li
+{
+    
+    display: inline-block;
+    margin-left: 40px;
+    list-style: none;
+    font-size: 25px;
+}
+.a1
+{
+    text-decoration: none;
+    color: black;
+}
+.bar
+{
+    background-color: darkorange;
+    height: 20px;
+    width:100%;
+}
