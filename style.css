@@ -29,16 +29,17 @@
 {
     padding-top: 3px;
     padding-left: 10px;
-    width: auto;
+    width: 300px;
 }
 .navbox2
 {
     display: flex;
-    width: 500px;
+    width: 100%;
     justify-content: space-between;   
     padding-top: 10px;
     padding-right: 30px;
-    padding-left: 10px;
+    padding-left: 700px;
+    margin-left: 0px;
     font-size: 23px;
 }
 
@@ -70,7 +71,7 @@
 }
 @media (min-aspect-ratio: 16/9)
 {
-    .navbox
+    .vid1
     {
         width: 100%;
         height: auto;
@@ -78,12 +79,13 @@
 }
 @media (min-aspect-ratio: 16/9)
 {
-    .navbox
+    .vid1
     {
         width: auto;
         height: 100%;
     }
 }
+
 .footer
 {
     display: flex;
