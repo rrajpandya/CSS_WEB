@@ -90,7 +90,7 @@
     position:absolute;
     justify-content:space-between;
     align-items:first baseline;
-    height:fit-content;
+    height:auto;
     width: 100%;
     background-color: antiquewhite;
     padding-left: 60px;
