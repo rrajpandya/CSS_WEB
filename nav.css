@@ -8,6 +8,16 @@
         width: auto;
     }
 }
+body
+{
+    background-color: antiquewhite;
+    color: #333A73;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: "roboto condensed";
+}
+
 .nav
 {
     display: flex;
@@ -17,7 +27,7 @@
     justify-content: space-between;
     margin-right: 50px;
     padding-left: 0px;
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
 }
 
 nav ul li
@@ -26,12 +36,13 @@ nav ul li
     display: inline-block;
     margin-left: 40px;
     list-style: none;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight:700;
 }
 .a1
 {
     text-decoration: none;
-    color: black;
+    color: #333A73;
 }
 .bar
 {
