@@ -333,3 +333,69 @@ article h1
     border-color: darkorange;
     font-weight: 400;
 }
+
+/* Log in Page */
+
+
+.login
+{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+   
+}
+.details
+{
+    padding-top: 0px;
+    
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    
+}
+.eyd
+{
+    background-color: darkorange;
+    height: 40px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-weight: 700;
+
+}
+.form
+{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+#e-mail
+{
+    width: 250px;
+    padding-right: 40px;
+    margin-left: 50px;
+       
+}
+.label1
+{
+    padding-right: 40px;
+    margin-left: 50px;
+    
+}
+.label2
+{
+    padding-right: 10px;
+    margin-left: 50px;
+}
+#pwd
+{
+    width: 250px;
+    margin-left: 50px;
+}
+
+/* Login 2nd page */
+
+
