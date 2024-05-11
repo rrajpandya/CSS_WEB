@@ -5,6 +5,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body
+{
+    background-color: antiquewhite;
+    color: #333A73;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: "roboto condensed";
+}
 .hero
 {
     width: 100%;
@@ -32,6 +41,7 @@
     margin-right: 50px;
     padding-left: 0px;
     background-color: antiquewhite;
+    font-size: 30px;
 }
 
 nav ul li
@@ -40,7 +50,9 @@ nav ul li
     display: inline-block;
     margin-left: 40px;
     list-style: none;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 800;
+    padding-right: 20px;
 }
 
 .nav:hover
@@ -76,7 +88,7 @@ nav ul li
 .a1
 {
     text-decoration: none;
-    color: black;
+    color: #333A73;
 }
 .a1:hover
 {
@@ -84,6 +96,7 @@ nav ul li
     font-size: 27px;
     font-style: italic;
     text-decoration: underline; 
+    font-weight: 900;
 }
 .a1:active
 {
@@ -125,10 +138,10 @@ nav ul li
 .footer
 {
     display: flex;
-    position:absolute;
+    position:;
     justify-content:space-between;
-    align-items:first baseline;
-    height:auto;
+    
+    height:100px;
     width: 100%;
     background-color: antiquewhite;
     padding-left: 60px;
@@ -138,11 +151,7 @@ nav ul li
     font-size: 25px;
     text-decoration: none;
 }
-.a1
-{
-    text-decoration: none;
-    color: black;
-}
+
 .a2
 {
     text-decoration: none;
@@ -161,9 +170,35 @@ nav ul li
     font-size: 20px;
 }
 
+.box1
+{
+    position;
+    padding-left: 0px;
+    font-size: 27px;
+    font-weight: bold;
+    
+}
 .box2
 {
     position;
     padding-left: 0px;
-    
+    font-size: 27px;
+    font-weight: bold;
+}
+.box3
+{
+    position;
+    padding-left: 0px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.hr
+{
+  margin-top: 200px;
+  padding: px;
+  width: 100%;
+  font-size: 25px;
+  color: #333A73;
+  
 }
