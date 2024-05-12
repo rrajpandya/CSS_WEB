@@ -10,23 +10,24 @@ body
     justify-content:right;
     align-items:center;
     min-height: 100vh;
-    background: url(bgimg.jpg) no-repeat;
+    background: url(bgimg2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    margin-right: 100px;
+    margin-right: 900px;
     font-family: "roboto condensed";
 }
 
 .wrapper
 {
     width: 450px;
+    height: 600px;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: darkorange;
     border-radius: 10px;
-    padding: 30px 5px;
+    padding: 125px 5px;
 }
 
 .wrapper h1
@@ -50,15 +51,15 @@ body
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid darkorange;
     border-radius: 40px;
     font-size: 16px;
-    color: white;
+    color: #333A73;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: white;
+    color: #333A73;
 }
 
 .input-box i {
@@ -82,7 +83,7 @@ body
 }
 
 .remember-forgot a {
-    color: white;
+    color: #333A73;
     text-decoration: none;
 }
 
@@ -111,7 +112,7 @@ body
 }
 
 .register-link p a {
-    color: #fff;
+    color: #333A73;
     text-decoration: none;
     font-weight: 600;
 }
@@ -119,3 +120,15 @@ body
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* rgba(255, 255, 255, .2) */
